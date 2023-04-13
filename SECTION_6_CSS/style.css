@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+  font-weight: 200;
+  color: lightpink;
+  text-decoration: pink underline wavy;
+  /* letter-spacing: 20px; */
+  font-size: 100px;
+  font-family: Andale mono, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  background-color: papayawhip;
+  color: lightpink;
+}
+
+button {
+  color: rgb(253, 229, 255);
+  background-color: #729aff;
+}
+
+a {
+  text-decoration: none;
+}
