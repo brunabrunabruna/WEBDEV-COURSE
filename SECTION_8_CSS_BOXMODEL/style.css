@@ -1,0 +1,70 @@
+html {
+  font-size: 20px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(197, 255, 236);
+  display: inline-block;
+  margin: 50px;
+}
+body {
+  /* font-size: 10px; */
+  margin: 0;
+}
+
+h1 {
+  /* margin: 20px 10px; */
+  background-color: pink;
+  color: antiquewhite;
+  padding: 30px 10px;
+}
+.one {
+  border-width: 5px;
+  border-style: dotted;
+  border-color: pink;
+  background-color: rgb(255, 239, 242);
+  padding: 50px;
+}
+
+.two {
+  /* width / style / color */
+  background-color: beige;
+  border: 4px solid plum;
+  border-left-width: 10px;
+  border-radius: 25%;
+  padding: 10px;
+  margin: 50px;
+}
+
+button {
+  padding: 20px;
+  color: plum;
+  background-color: rgb(168, 103, 168);
+  /* border: solid pink, 3px; */
+  margin: 30px;
+}
+
+article {
+  font-size: 50px;
+}
+
+.emButton {
+  font-size: 1em;
+  padding: 0 1em;
+  border-radius: 0.5em;
+}
+
+/* rems are proportional to the root element, <html>, so if i say font size to html is 10 px, 1 rem = 10px, 2 rem = 20px */
+
+#rems h2 {
+  font-size: 2rem;
+}
+
+#rem li {
+  font-size: 1rem;
+}
+#rem p {
+  font-size: 0.7rem;
+}
