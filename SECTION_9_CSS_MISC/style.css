@@ -1,0 +1,42 @@
+section {
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+}
+
+#rgba {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(226, 203, 255, 0.5);
+}
+
+#opacity {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+  opacity: 0.4;
+}
+
+button {
+  padding: 10px;
+  margin: 1rem;
+}
+
+div {
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  border: 5px black solid;
+}
+
+#absolute {
+  position: absolute;
+  background-color: aqua;
+  margin: 40px;
+}
+
+#relative {
+  position: relative;
+  background-color: blueviolet;
+  margin: 40px;
+}
