@@ -7,6 +7,7 @@ body {
   background-color: pink;
   font-size: 20px;
   position: relative;
+  color: palevioletred;
 }
 
 button {
@@ -17,23 +18,24 @@ button {
   padding: 1em 2em;
   font-size: 1em;
   transition: all 0.25s ease-in-out;
+  margin-top: 10vh;
 }
 
 button:hover {
   color: white;
   box-shadow: 0 0.5em 0.5em 0em rgb(239, 160, 174);
-  background-color: rgb(255, 177, 190);
+  background-color: rgb(255, 170, 184);
   transform: translateY(-0.4em);
   cursor: pointer;
 }
 
 section {
   align-items: center;
-  width: 400px;
-  height: 400px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   position: absolute;
-  margin-top: -10vh;
+  margin-top: -75vh;
 
   background-image: url(https://i.pinimg.com/originals/e5/2a/3c/e52a3c33fdaa075f5fda5ec003188943.png);
   background-size: contain;
@@ -44,9 +46,14 @@ section {
 
 h1 {
   font-family: "Roboto Mono", sans-serif;
+  position: absolute;
+  margin-top: -40vh;
 }
 
-h2,
 h3 {
+  width: 1000px;
+  margin-top: 80vh;
   font-family: Roboto, sans-serif;
+  position: absolute;
+  font-weight: 700;
 }
