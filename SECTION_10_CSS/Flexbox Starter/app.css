@@ -7,19 +7,50 @@ h1 {
 #container {
   background-color: #003049;
   width: 90%;
-  height: 500px;
+  /* height: 500px; */
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
   flex-direction: row;
   /* justify-content: space-evenly; */
   justify-content: center;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  align-items: center;
+  /* flex-wrap: wrap; */
   align-content: center;
 }
 
 #container div {
-  width: 500px;
+  width: 200px;
   height: 200px;
+  /* min-width: 200px;
+  max-width: 300px; */
+  /* flex-basis: 200px; */
+  /* flex-grow: 2;
+  flex-shrink: 1; */
+}
+
+div:nth-last-of-type(1) {
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+div:nth-last-of-type(5) {
+  flex-grow: 3;
+  flex-shrink: 0;
+}
+
+main {
+  display: flex;
+  width: 80%;
+  margin: 10% auto;
+  height: 500px;
+}
+
+.sidebar {
+  flex: 1 300px;
+  background-color: pink;
+}
+
+.maincontent {
+  flex: 4 1000px;
+  background-color: paleturquoise;
 }
