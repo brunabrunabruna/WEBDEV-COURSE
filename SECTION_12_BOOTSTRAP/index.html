@@ -16,7 +16,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>container</h1>
+      <div class="display-1 text-success">Display 1</div>
+      <h1 class="text-center text-primary">
+        container
+
+        <span class="badge badge-secondary">New</span>
+      </h1>
       <button type="button" class="btn btn-primary">Primary</button>
       <button type="button" class="btn btn-success">success</button>
       <button type="button" class="btn btn-info">info</button>
@@ -28,6 +33,33 @@
       <button type="button" class="btn btn-danger" disabled>
         danger disabled
       </button>
+      <blockquote class="blockquote mb-0 text-right bg-info text-white">
+        QUOTE Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+        corporis! Tempore eius, explicabo adipisci minus eum aperiam tenetur
+        tempora quos, voluptas aliquam impedit omnis iusto numquam odio sunt
+        sint quae.
+        <footer class="blockquote-footer">mrs example</footer>
+      </blockquote>
+
+      <h3>alerts</h3>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <h4 class="alert-heading">Danger</h4>
+        Danger! Danger! High voltage
+        <button class="close" data-dismiss="alert" aria-label="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <h3>button group</h3>
+      <div class="btn-group" role="group">
+        <button class="btn btn-warning">One</button>
+        <button class="btn btn-warning">Two</button>
+        <button class="btn btn-warning">Three</button>
+      </div>
+      <span class="badge-pill badge-dark">pill</span>
+      <button class="btn btn-primary">
+        Updates <span class="badge badge-light">9</span>
+      </button>
+      <button>Updates <span>9</span></button>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem totam
         magnam aperiam culpa ipsa. Nulla ex eveniet magni fugit qui corrupti,
@@ -49,6 +81,132 @@
         Ratione et repellendus delectus, eaque dolor tenetur dignissimos
         consequatur quos nisi ut.
       </p>
+
+      <h1>rows and columns</h1>
+      <div class="container">
+        <h1>the grid system</h1>
+        <div class="row">
+          <div class="col-2 bg-success">col 2</div>
+          <div class="col-8 bg-danger">col 8</div>
+          <div class="col-2 bg-success">col 2</div>
+        </div>
+        <div class="row">
+          <div class="col bg-primary">col resizes automatically</div>
+          <div class="col bg-warning">col resizes automatically</div>
+          <div class="col bg-light">col resizes automatically</div>
+          <div class="col bg-info">col resizes automatically</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="display-4">responsive grid</h2>
+      <div class="row">
+        <div class="col-md-6 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora.
+        </div>
+        <div class="col-md-6 col-xl-3 bg-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora.
+        </div>
+        <div class="col-md-3 col-xl-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora.
+        </div>
+        <div class="col-md-3 col-xl-3 bg-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora.
+        </div>
+      </div>
+      <h2>justify content</h2>
+      <div
+        class="row border justify-content-center justify-content-lg-start justify-content-xl-between"
+      >
+        <div class="col-md-4 bg-primary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsa
+          aut ratione, eveniet optio repellat? Repudiandae tempore qui
+          distinctio quidem non, ipsum laudantium minus magnam consectetur
+          doloribus quia debitis sunt!
+        </div>
+        <div class="col-md-4 bg-primary">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ipsa
+          aut ratione, eveniet optio repellat? Repudiandae tempore qui
+          distinctio quidem non, ipsum laudantium minus magnam consectetur
+          doloribus quia debitis sunt!
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-xl-4">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1681953447837-34c2c0f0c36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1681953447837-34c2c0f0c36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <img
+            class="img-fluid"
+            src="https://images.unsplash.com/photo-1681953447837-34c2c0f0c36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+            alt=""
+          />
+        </div>
+      </div>
+      <h2 class="display-4">aligning items</h2>
+      <div class="row align-items-center">
+        <div class="col-3 bg-info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        </div>
+        <div class="col-3 bg-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Odio omnis nemo voluptate incidunt et sunt
+          consequatur sapiente nulla provident sed molestias placeat dicta,
+          aliquid eum. Non delectus sapiente ut quas?
+        </div>
+        <div class="col-3 bg-info align-self-end">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora.
+        </div>
+        <div class="col-3 bg-warning">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+          cupiditate aspernatur quia nesciunt facilis possimus sit, beatae
+          laboriosam pariatur perspiciatis numquam. Rerum quos possimus, qui ex
+          repellat rem veritatis tempora. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Pariatur accusamus minus ipsum fugit odio.
+          Consequatur eius, facilis ipsam consectetur ut asperiores dolorum
+          facere consequuntur libero, fuga quo, voluptates eveniet unde!
+          Doloremque nam amet qui voluptatem exercitationem ex doloribus cumque
+          quas sunt suscipit facilis tempore autem commodi delectus dolor
+          assumenda, alias atque, dignissimos saepe quos odio repudiandae
+          ratione? Ad, delectus quae.
+        </div>
+      </div>
+      <div class="col-md-6 col-xl-4">
+        <img
+          class="img-fluid"
+          src="https://images.unsplash.com/photo-1681953447837-34c2c0f0c36f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+          alt=""
+        />
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
