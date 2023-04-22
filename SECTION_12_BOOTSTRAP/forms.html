@@ -15,48 +15,209 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- As a link -->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm fixed-bottom">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="expandme"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="expandme">
+        <div class="navbar-nav">
+          <a href="Home" class="nav-item nav-link">Home</a>
+          <a href="Home" class="nav-item nav-link">About</a>
+          <a href="Home" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="display-1 mb-5">Utilities</h1>
+
+      <div class="row">
+        <p class="col-md-4 border rounded border-success shadow my-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat rem
+          rerum hic dicta unde! Eveniet vitae, magni tempora veniam obcaecati
+          recusandae, distinctio animi laborum placeat enim aliquam ad! Eveniet,
+          aspernatur.
+        </p>
+      </div>
+      <div>
+        <button class="btn btn-primary p-0">Padding0</button>
+        <button class="btn btn-primary p-1">Padding1</button>
+        <button class="btn btn-primary p-2">Padding2</button>
+        <button class="btn btn-primary p-3">Padding3</button>
+        <button class="btn btn-primary p-4">Padding4</button>
+        <button class="btn btn-primary p-5 shadow">Padding5</button>
+      </div>
+      <button class="btn btn-danger p-0 p-sm-1 p-md-2 p-lg-3 p-xl-5 my-5">
+        I Change!
+      </button>
+    </div>
+    <div class="container">
+      <h1 class="display-2">
+        Icons
+        <svg
+          width="1em"
+          height="1em"
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-heart"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+          />
+        </svg>
+      </h1>
+      <button class="btn btn-lg btn-danger">
+        Delete
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-trash3"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"
+          />
+        </svg>
+      </button>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-search-heart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"
+                  /></svg
+              ></span>
+            </div>
+            <input type="text" placeholder="search" />
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <h1 class="display-2">Forms</h1>
       <form action="#nowhere">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="email">enter email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="pw">enter password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pw"
+              placeholder="Password"
+            />
+          </div>
+        </div>
         <div class="form-group">
-          <label for="email">enter email</label>
+          <label for="email"> street Address</label>
           <input
             type="email"
             class="form-control"
-            id="email"
-            placeholder="Email"
+            id="address"
+            placeholder="type ur address"
           />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="state">enter state</label>
+            <select name="state" id="state" class="form-control">
+              <option value="BE">berlin</option>
+              <option value="BR">brandemburg</option>
+            </select>
+          </div>
+          <div class="form-group col-6 col-md-3">
+            <label for="city"> city</label>
+            <input
+              type="text"
+              class="form-control"
+              id="city"
+              placeholder="city"
+            />
+          </div>
+          <div class="form-group col-6 col-md-3">
+            <label for="zip">zip <code></code></label>
+            <input
+              type="text  "
+              class="form-control"
+              id="zip"
+              placeholder="1983984"
+            />
+          </div>
         </div>
         <div class="form-group">
-          <label for="pw">enter password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="pw"
-            placeholder="Password"
-          />
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" />
+            <label for="checkbox" class="form-check-label">default</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input
+              type="checkbox"
+              class="custom-control-input"
+              id="customCheck1"
+            />
+            <label class="custom-control-label" for="customCheck1"
+              >Check this custom checkbox</label
+            >
+          </div>
         </div>
-        <div class="form-group">
-          <label for="state">enter state</label>
-          <select name="state" id="state" class="form-control">
-            <option value="BE">berlin</option>
-            <option value="BR">brandemburg</option>
-          </select>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" />
-          <label for="checkbox" class="form-check-label">default</label>
-        </div>
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            class="custom-control-input"
-            id="customCheck1"
-          />
-          <label class="custom-control-label" for="customCheck1"
-            >Check this custom checkbox</label
-          >
-        </div>
+        <button type="submit" class="btn btn-success">Register</button>
       </form>
     </div>
     <script
