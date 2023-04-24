@@ -1,0 +1,57 @@
+body {
+  background-color: #f5d9d5;
+  font-family: "nunito", sans-serif;
+}
+
+h3 {
+  color: palevioletred;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.lead {
+  color: palevioletred;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+#mainNavbar .navbar-brand {
+  color: palevioletred;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: palevioletred;
+}
+
+#mainNavbar {
+  font-weight: 400;
+  size: 1.5em;
+}
+
+#headingGroup span {
+  color: palevioletred;
+}
+
+#headingGroup h2 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+.navbar.scrolled {
+  background-color: pink;
+  transition: all 1s;
+}
+
+@media (max-width: 1300px) {
+  #headingGroup h2 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
