@@ -1,0 +1,16 @@
+div {
+  display: inline-block;
+}
+.img-style {
+  object-fit: cover;
+}
+
+.card {
+  border: 2px rgb(177, 177, 177) solid;
+  border-radius: 7%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 4px 5px 10px rgb(204, 204, 204);
+}
