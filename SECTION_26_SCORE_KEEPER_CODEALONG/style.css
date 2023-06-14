@@ -1,0 +1,26 @@
+.main-container {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.top-container {
+  align-items: center;
+}
+
+.score-display {
+  display: flex;
+  font-size: large;
+}
+
+img {
+  width: 200px;
+}
+
+.winner {
+  color: green;
+}
+.loser {
+  color: red;
+}

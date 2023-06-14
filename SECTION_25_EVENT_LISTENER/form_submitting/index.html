@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form submitting</title>
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>form submitting, preventing default behaviour and extracting input</h1>
+
+    <h2>enter a cat name</h2>
+    <form action="/nexPage" id="form">
+      <input type="text" id="catName" />
+      <button>submit form</button>
+    </form>
+
+    <h2>list of cats names</h2>
+    <ul id="list">
+      <li>dfsjkg</li>
+    </ul>
+
+    <h2>tweet posting</h2>
+    <form action="/tweet" id="formTweet">
+      <input type="text" name="username" id="username" placeholder="username" />
+      <input type="text" name="tweet" id="tweet" placeholder="tweet" />
+      <button>post tweet</button>
+    </form>
+    <h3>posted tweeets</h3>
+    <ul id="tweetsList"></ul>
+    <!-- STOP PROPAGATION ///////////////////////////////////// -->
+    <p id="paragraph">
+      this is a paragraph
+      <button id="button">click me</button>
+    </p>
+
+    <script src="app.js"></script>
+  </body>
+</html>

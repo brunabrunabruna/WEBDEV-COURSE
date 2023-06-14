@@ -1,0 +1,18 @@
+div {
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: ;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-white {
+  color: white;
+}
