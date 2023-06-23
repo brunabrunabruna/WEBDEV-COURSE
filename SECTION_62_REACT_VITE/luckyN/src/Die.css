@@ -1,0 +1,12 @@
+.Die {
+  background-color: darkorchid;
+  color: whitesmoke;
+  border-radius: 10%;
+  width: 4.5rem;
+  height: 3rem;
+  text-align: center;
+  margin: 0.5rem;
+  padding-top: 1.2rem;
+  font-size: x-large;
+  font-weight: bold;
+}

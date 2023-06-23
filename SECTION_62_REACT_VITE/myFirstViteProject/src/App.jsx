@@ -8,6 +8,11 @@ import ColorList from "./ColorList";
 import Slots from "./Slots";
 import ShoppingList from "./ShoppingList";
 import NewShoppingList from "./NewShoppingList";
+import ClickButton from "./ClickButton";
+import Form from "./Form";
+import Clicker from "./Clicker";
+import Counter from "./Counter";
+import Toggler from "./toggler";
 
 function App() {
   return (
@@ -28,11 +33,19 @@ function App() {
 ['🍣', '🍥', '🍡 ' ]
 */}
 
+      <Toggler />
+      <Clicker buttonText={"pls click me"} message={"hello!"} />
+      <Form />
+
+      <ClickButton />
+
       <Slots slotsAmount={4} figuresArray={["🍣", "🍥", "🍡 ", "🩵"]} />
 
       <ShoppingList items={data} />
 
       <NewShoppingList items={newData} />
+
+      <Counter />
     </>
   );
 }
